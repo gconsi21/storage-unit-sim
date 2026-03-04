@@ -47,10 +47,10 @@ public class ContainerDefinition {
         if (legendaryWeight < 0) {
             throw new IllegalArgumentException("legendaryWeight must be >= 0");
         }
-        if (getTotalRarityWeight() <= 0) {
+        if ((commonWeight + uncommonWeight + rareWeight + epicWeight + legendaryWeight) <= 0) {
             throw new IllegalArgumentException("The total rarity weight must be > 0 ");
         }
-        if (getTotalDropWeight() <= 0) {
+        if ((weight1 + weight2 + weight3) <= 0) {
             throw new IllegalArgumentException("The total drop weight must be > 0 ");
         }
         if ((allowedCategories == null || allowedCategories.isEmpty())){
