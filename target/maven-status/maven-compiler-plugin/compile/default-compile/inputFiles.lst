@@ -1,1 +1,7 @@
 C:\Users\gcons\Container Game\storage-unit-sim\src\main\java\com\gcons\App.java
+C:\Users\gcons\Container Game\storage-unit-sim\src\main\java\com\gcons\domain\Category.java
+C:\Users\gcons\Container Game\storage-unit-sim\src\main\java\com\gcons\domain\ContainerDefinition.java
+C:\Users\gcons\Container Game\storage-unit-sim\src\main\java\com\gcons\domain\ItemDefinition.java
+C:\Users\gcons\Container Game\storage-unit-sim\src\main\java\com\gcons\domain\ItemInstance.java
+C:\Users\gcons\Container Game\storage-unit-sim\src\main\java\com\gcons\domain\Rarity.java
+C:\Users\gcons\Container Game\storage-unit-sim\src\main\java\com\gcons\systems\LootGenerator.java
